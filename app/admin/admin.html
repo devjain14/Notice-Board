@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+ 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+ 
+    <title>Admin Panel</title>
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
+</head>
+ 
+<body>
+ <!-- Navbar-->
+<nav class="navbar navbar-default navbar-fixed-top" id="navBar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" style="color:white;letter-spacing:.8em;padding:25px 0 0 55px;font-size:1.5em;">NOTIFIER</a>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<!--Navbar Ends-->
+    <div class="container">
+        <div class="jumbotron" style="padding-bottom:0px;text-align:center;">
+            <h2>Admin Panel!</h2>
+        </div>
+        <form class="form-signin" role="form" >
+            <input type="email" id="txtEmail" class="form-control" ng-model="email" placeholder="Email" required="" autofocus="">
+            <input type="password" id="txtPass" class="form-control" ng-model="password" placeholder="Password" required="">
+<!--
+            <label class="checkbox" id="btnSignUp">
+                <a href="#">Sign Up</a>
+        </label>
+-->
+        <button class="btn btn-lg btn-primary btn-action" id="btnLogIn"><a ng-click="logIn()" style="color:white;text-decoration:none;">LOG IN</a></button>
+      </form>
+ 
+    </div>
+ 
+   
+ 
+</body></html>

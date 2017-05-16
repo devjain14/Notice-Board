@@ -1,0 +1,11 @@
+/*admin css stylesheet*/
+/*Sender*/
+.heading{
+    text-align: center;
+    color:#002d72;
+    margin-top: 5em;
+}
+#submitDet{
+    float:right;
+    margin-right: 13em;
+}

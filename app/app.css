@@ -1,0 +1,117 @@
+/* app css stylesheet */
+
+.menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+}
+
+.menu:before {
+    content: "[";
+}
+
+.menu:after {
+    content: "]";
+}
+
+.menu>li {
+    display: inline;
+}
+
+.menu>li+li:before {
+    content: "|";
+    padding-right: 0.3em;
+}
+
+
+/*Navbar*/
+
+#navBar {
+    background-color: #002d72;
+    font-family: "franklin", Helvetica, sans-serif;
+    font-weight: bold;
+    height: 5em;
+}
+
+.navBarList {
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navBarList li {
+    float: right;
+}
+
+.navBarList li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.8em 2em;
+    letter-spacing: .2em;
+}
+
+.navBarList li a:hover {
+    color: #d8a808;
+}
+
+
+/*Home Section*/
+
+.jumbotron {
+    margin: 0 15% 0 15%;
+}
+
+.panel-body {
+    height: 10em;
+    background-color: #d8a808;
+    font-family: "franklin", Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.panel-body h3 {
+    padding-top: 1.3em;
+    font-weight: bold;
+}
+
+#sub {
+    text-align: center;
+    height: 4em;
+    font-weight: bold;
+    padding-top: 1em;
+    color: #002d72;
+}
+
+.thumbnail {
+    margin: 0 15% 0 15%;
+}
+
+.caption {
+    height: 6em;
+}
+
+#spandan {
+    text-align: center;
+    font-weight: bold;
+    color: #002d72;
+}
+
+#navrachna {
+    text-align: center;
+    font-weight: bold;
+    color: #002d72;
+}
+
+.footer {
+    background-color: #002d72;
+    font-family: "franklin", Helvetica, sans-serif;
+    font-weight: bold;
+    height: 5em;
+    margin-bottom: -4em;
+}
