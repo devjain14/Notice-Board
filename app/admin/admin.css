@@ -9,3 +9,24 @@
     float:right;
     margin-right: 13em;
 }
+.headerButton{
+    float:right;
+    margin:1.2em 0 0 0 ;
+    padding:.5em .5em .5em .5em;
+    border:2px solid white;
+}
+#buttonLink{
+    color:white;
+    text-decoration:none;
+}
+.headerButton:hover{
+     background-color: #000f26;
+}
+@media only screen and (max-width: 770px) {
+ .headerButton{
+    float:right;
+     font-size:.7em;
+    margin:-2.7em 0 0 0 ;
+    padding:.5em .5em .5em .5em;
+    border:2px solid white;
+} 

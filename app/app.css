@@ -24,16 +24,36 @@
     padding-right: 0.3em;
 }
 
-
-/*Navbar*/
-
+/*Navbar Home2 */
 #navBar {
     background-color: #002d72;
     font-family: "franklin", Helvetica, sans-serif;
     font-weight: bold;
     height: 5em;
 }
-
+.headerButton{
+    float:right;
+    margin:1.2em 0 0 0 ;
+    padding:.5em .5em .5em .5em;
+    border:2px solid white;
+}
+#buttonLink{
+    color:white;
+    text-decoration:none;
+}
+.headerButton:hover{
+    background-color:#000f26;;
+}
+@media only screen and (max-width: 770px) {
+ .headerButton{
+    float:right;
+     font-size:.7em;
+    margin:-2.7em 0 0 0 ;
+    padding:.5em .5em .5em .5em;
+    border:2px solid white;
+}   
+}
+/*
 .navBarList {
     list-style: none;
     display: block;
@@ -58,34 +78,37 @@
 .navBarList li a:hover {
     color: #d8a808;
 }
+*/
 
 
-/*Home Section*/
+
+/*Home Section Home2 */
 
 .jumbotron {
     margin: 0 15% 0 15%;
 }
 
 .panel-body {
-    height: 10em;
-    background-color: #d8a808;
+    height: 20em;
     font-family: "franklin", Helvetica, sans-serif;
-    color: white;
+    color:white;
     text-align: center;
     font-weight: bold;
+     background: url(img/back5.jpg) no-repeat center fixed; 
+    background-size: cover;
 }
 
 .panel-body h3 {
-    padding-top: 1.3em;
+    padding-top: 4em;
     font-weight: bold;
 }
 
-#sub {
+#subject {
+/*    background-color: white;*/
     text-align: center;
-    height: 4em;
     font-weight: bold;
-    padding-top: 1em;
-    color: #002d72;
+    padding-top: 8em;
+    border:1px solid white;
 }
 
 .thumbnail {
@@ -114,4 +137,24 @@
     font-weight: bold;
     height: 5em;
     margin-bottom: -4em;
+}
+/*Notify*/
+#about{
+    padding-top: 7em;
+}
+#sub{
+    text-align: center;
+    font-weight: bold;
+    color: #002d72;    
+}
+table, td{
+    border:1px solid black;
+    padding:1.5em 1.5em 1.5em 1.5em;    
+}
+.table_head{
+    font-weight:bold;
+    background-color: #002d72;
+    text-align:center;
+    color:white;
+    font-size:2em;
 }

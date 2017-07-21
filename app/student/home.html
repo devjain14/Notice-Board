@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
- 
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
- 
+
     <title>Log In</title>
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
 </head>
-    <!-- Navbar-->
+<!-- Navbar-->
 <nav class="navbar navbar-default navbar-fixed-top" id="navBar">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" style="color:white;letter-spacing:.8em;padding:25px 0 0 55px;font-size:1.5em;">NOTIFIER</a>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" style="color:white;letter-spacing:.8em;padding:25px 0 0 55px;font-size:1.5em;">NOTIFIER</a>
+        </div>
     </div>
-  </div><!-- /.container-fluid -->
+    <!-- /.container-fluid -->
 </nav>
+
 <body>
- 
+
     <div class="container">
         <div class="jumbotron" style="padding-bottom:0px;text-align:center;">
-            <h2>Home</h2>
+            <h2 style="color:#002d72;font-weight:bold;text-align:center;text-decoration:underline;">Home</h2>
         </div>
-        <form class="form-signin" role="form" >
+        <form class="form-signin" role="form">
             <input type="name" id="txtName" class="form-control" ng-model="name" placeholder="Your Name" required="" autofocus="">
             <input type="year" id="txtYear" class="form-control" ng-model="year" placeholder="Year of Study" required="" autofocus="">
             <input type="email" id="txtEmail" class="form-control" ng-model="email" placeholder="Email" required="" autofocus="">
             <input type="password" id="txtPass" class="form-control" ng-model="password" placeholder="Password" required="">
-            <label class="checkbox" id="btnSignUp" >
+            <label class="checkbox" id="btnSignUp">
                 <a href="#" ng-click="signUp()">Sign Up</a>
         </label>
-        <button class="btn btn-lg btn-primary btn-action" id="btnLogIn" type="submit">Log in</button>
-        <button class="btn btn-lg btn-primary btn-action hide" id="btnLogOut">Log Out</button>
-            <div id ="table_body"></div>
-      </form>
- 
+            <button class="btn btn-lg btn-primary btn-action" id="btnLogIn" type="submit">Log in</button>
+            <button class="btn btn-lg btn-primary btn-action hide" id="btnLogOut">Log Out</button>
+            <div id="table_body"></div>
+        </form>
+
     </div>
- 
-   
- 
-</body></html>
+
+
+
+</body>
+
+</html>
